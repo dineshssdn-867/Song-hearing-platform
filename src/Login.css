@@ -1,20 +1,72 @@
 .login {
-    display: grid;
+  display: grid;
+  background-color: black;
+  height: 100vh;
+  place-items: center;
+}
+
+.login > img {
+  height: 400px;
+  cursor: pointer;
+  
+}
+
+.login > a {
+  color: #fff;
+  text-decoration: none;
+  padding: 20px;
+  border-radius: 99px;
+  font-weight: 600;
+  background-color: #1db954;
+  letter-spacing: 2px;
+}
+
+.login >p{
+  color: #fff;
+  font-size: 16px;
+}
+
+.login >p span{
+  font-size: 18px;
+  color: red;
+  height: 20px;
+}
+
+@media screen and (max-width: 640px) {
+
+  .login {
+    position: absolute;
     background-color: black;
+    align-content: left;
     height: 100vh;
-    place-items: center;
+    width: 100vw;
+    overflow:hidden;
   }
   
   .login > img {
-    height: 200px;
+    height: 400px;
+    cursor: pointer;  
   }
   
   .login > a {
-    color: white;
+    color: #fff;
     text-decoration: none;
     padding: 20px;
     border-radius: 99px;
-    font-weight: 800;
+    font-weight: 600;
     background-color: #1db954;
+    letter-spacing: 2px;
   }
   
+  .login >p{
+    color: #fff;
+    font-size: 14px;
+  }
+  
+  .login >p span{
+    font-size: 18px;
+    color: red;
+    height: 20px;
+  }
+ 
+}

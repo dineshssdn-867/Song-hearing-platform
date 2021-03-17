@@ -19,6 +19,7 @@
   .sidebar__logo {
     margin-right: auto;
     object-fit: contain;
-    height: 70px;
+    height: 90px;
     padding: 10px;
+    color: green;
   }
