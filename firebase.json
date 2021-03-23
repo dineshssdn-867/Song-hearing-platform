@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "d-s-spotify",
+    "public": "public",
     "ignore": [
       "firebase.json",
       "**/.*",
