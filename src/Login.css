@@ -44,8 +44,10 @@
   }
   
   .login > img {
-    height: 400px;
-    cursor: pointer;  
+    height: 50vh;
+    width: 100vw;
+    cursor: pointer; 
+    align-items:right; 
   }
   
   .login > a {

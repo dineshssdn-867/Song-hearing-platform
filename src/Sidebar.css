@@ -21,5 +21,10 @@
     object-fit: contain;
     height: 90px;
     padding: 10px;
-    color: green;
+    color: green; 
+  }
+  @media screen and (max-width: 640px) {
+    .sidebar {
+      display: none;
+    }
   }
